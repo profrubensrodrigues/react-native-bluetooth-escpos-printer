@@ -25,12 +25,12 @@ for this version to exist and continue evolving.
 
 **Install via NPM:**
 ```bash
-npm install @vardrz/react-native-bluetooth-escpos-printer --save
+npm install @profrubensrodrigues/react-native-bluetooth-escpos-printer --save
 ```
 
 **Or install via GitHub:**
 ```bash
-npm install https://github.com/vardrz/react-native-bluetooth-escpos-printer.git --save
+npm install https://github.com/profrubensrodrigues/react-native-bluetooth-escpos-printer.git --save
 ```
 
 ---

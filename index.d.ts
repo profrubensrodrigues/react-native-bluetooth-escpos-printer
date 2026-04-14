@@ -25,7 +25,7 @@ export interface BluetoothManagerType {
 export interface BluetoothEscposPrinterType {
   printText(text: string, options?: any): Promise<void>;
   printPic(base64: string, options?: PrintOptions): Promise<void>;
-  printQRCode(content: string, size: number, align?: number): Promise<void>;
+  printQRCode(content: string, size: number, correctionLevel: number, leftPadding: number): Promise<void>;
   printBarCode(
     content: string,
     symbology: number,
@@ -34,6 +34,7 @@ export interface BluetoothEscposPrinterType {
     align: number,
     textPosition: number
   ): Promise<void>;
+	printerAlign(int: number);
   cutPaper(): Promise<void>;
   ERROR_CORRECTION: { L: number; M: number; Q: number; H: number };
   BARCODETYPE: Record<string, number>;
