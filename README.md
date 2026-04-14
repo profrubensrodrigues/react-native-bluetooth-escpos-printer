@@ -1,22 +1,22 @@
 # React Native Bluetooth ESC/POS & TSC Printer
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vardrz/react-native-bluetooth-escpos-printer/master/LICENSE) [![npm version](https://badge.fury.io/js/@vardrz%2Freact-native-bluetooth-escpos-printer.svg)](https://badge.fury.io/js/@vardrz%2Freact-native-bluetooth-escpos-printer)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/profrubensrodrigues/react-native-bluetooth-escpos-printer/master/LICENSE) [![npm version](https://badge.fury.io/js/@profrubensrodrigues%2Freact-native-bluetooth-escpos-printer.svg)](https://badge.fury.io/js/@profrubensrodrigues%2Freact-native-bluetooth-escpos-printer)
 
 React Native plugin for Bluetooth ESC/POS & TSC printers.
 
 > 💡 Still under development.  
 > ✅ Currently supports **Android**, **iOS support** planned.
 
-Any questions or bugs? Please open an [issue](https://github.com/vardrz/react-native-bluetooth-escpos-printer/issues).
+Any questions or bugs? Please open an [issue](https://github.com/profrubensrodrigues/react-native-bluetooth-escpos-printer/issues).
 
 ---
 
 ## 🧩 Acknowledgments
 
-This project is a continuation of the excellent work started by [**Janus J K Lu**](https://github.com/januslo/react-native-bluetooth-escpos-printer) and later improved by [**Ccdilan**](https://github.com/ccdilan/react-native-bluetooth-escpos-printer).
-This fork by [**Farid Fatkhurrozak (Vardrz)**](https://github.com/vardrz/react-native-bluetooth-escpos-printer) builds upon Ccdilan’s version — adding **TypeScript support**, **minor native fixes**, and **extra print options**.
+This project is a continuation of the excellent work started by [**Janus J K Lu**](https://github.com/januslo/react-native-bluetooth-escpos-printer) and later improved by [**vardrz**](https://github.com/vardrz/react-native-bluetooth-escpos-printer).
+This fork by [**Rubens Rodrigues (profrubensrodrigues)**](https://github.com/profrubensrodrigues/react-native-bluetooth-escpos-printer) builds upon Ccdilan’s version — adding **QRCode Padding**.
 
-Special thanks to both Janus and Ccdilan — their contributions laid the foundation  
+Special thanks to both Janus, Ccdilan and Vardrz — their contributions laid the foundation  
 for this version to exist and continue evolving.
 
 ---
@@ -43,7 +43,7 @@ import {
   BluetoothManager,
   BluetoothEscposPrinter,
   BluetoothTscPrinter
-} from '@vardrz/react-native-bluetooth-escpos-printer';
+} from '@profrubensrodrigues/react-native-bluetooth-escpos-printer';
 ```
 
 ---
@@ -243,4 +243,4 @@ BluetoothEscposPrinter.openDrawer(0, 250, 250);
 ## 🔗 References
 - [Original repo – januslo/react-native-bluetooth-escpos-printer](https://github.com/januslo/react-native-bluetooth-escpos-printer)
 - [Ccdilan fork – @ccdilan/react-native-bluetooth-escpos-printer](https://github.com/ccdilan/react-native-bluetooth-escpos-printer)
-- [This fork – @vardrz/react-native-bluetooth-escpos-printer](https://github.com/vardrz/react-native-bluetooth-escpos-printer)
+- [This fork – @profrubensrodrigues/react-native-bluetooth-escpos-printer](https://github.com/profrubensrodrigues/react-native-bluetooth-escpos-printer)
